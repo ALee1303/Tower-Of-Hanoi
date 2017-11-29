@@ -12,7 +12,7 @@ class UE4HANOISIM_API AHanoiBlock : public AActor
 
 public:
 	// Sets default values for this actor's properties
-	AHanoiBlock();
+	AHanoiBlock(int32 _lv);
 
 protected:
 	// Called when the game starts or when spawned
@@ -22,6 +22,11 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
+	int32 level;
 	float Speed;
-	FVector DestLoc; 
+	FVector DestLoc;
+	FTransform BaseTransform;
+
+	UPROPERTY()
+		UStaticMeshComponent* DiskVisual;
 };
