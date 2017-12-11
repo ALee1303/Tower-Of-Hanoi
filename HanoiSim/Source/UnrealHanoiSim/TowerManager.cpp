@@ -11,7 +11,7 @@ ATowerManager::ATowerManager()
 	PrimaryActorTick.bCanEverTick = true;
 	TowersStartPosition = CreateDefaultSubobject<USceneComponent>(TEXT("StartPosition"));
 	RootComponent = TowersStartPosition;
-	TowersOffset = FVector(50.0f, 0.0f, 0.0f);
+	TowersOffset = FVector(300.0f, 0.0f, 0.0f);
 }
 
 // Called when the game starts or when spawned

@@ -12,6 +12,7 @@ ATower::ATower()
 	PrimaryActorTick.bCanEverTick = true;
 	TowerLocation = CreateDefaultSubobject<USceneComponent>(TEXT("TowerPosition"));
 	RootComponent = TowerLocation;
+	StackOffset = 10.0f;
 }
 
 // Called when the game starts or when spawned
@@ -69,9 +70,7 @@ void ATower::ResetTower(int32 NewCount)
 
 const FVector ATower::GetPositionToStack() const
 {
-	FVector position = TowerLocation->GetComponentScale();
+	FVector position = TowerLocation->GetComponentLocation();
 	position.Z += StackOffset * (DiskStack.Num() - 1);
 	return position;
 }
-
-const float ATower::StackOffset = 2.0f;

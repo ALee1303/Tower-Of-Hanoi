@@ -25,7 +25,7 @@ void AUnrealHanoiSimGameModeBase::BeginPlay()
 
 	Cast<ATowerManager>(TowerManager)->InitializeTowers(8);
 	EnqueueMoveCall(8);
-	DequeueMoveCall();
+	GetWorldTimerManager().SetTimer(MoveTimer, this, &AUnrealHanoiSimGameModeBase::DequeueMoveCall, MoveDelay, false);
 }
 
 void AUnrealHanoiSimGameModeBase::ChangeMenuWidget(TSubclassOf<UUserWidget> NewWidgetClass)
@@ -74,6 +74,9 @@ void AUnrealHanoiSimGameModeBase::DequeueMoveCall()
 		int32 from, to;
 		MoveCall.Dequeue(from); MoveCall.Dequeue(to);
 		Cast<ATowerManager>(TowerManager)->ChangeTower(from, to);
+		TArray<AActor*> FoundActors;
+		//UGameplayStatics::GetAllActorsOfClass(GetWorld(), ATowerManager::StaticClass(), FoundActors);
+		//Cast<ATowerManager>(FoundActors[0])->ChangeTower(from, to);
 		GetWorldTimerManager().SetTimer(MoveTimer, this, &AUnrealHanoiSimGameModeBase::DequeueMoveCall, MoveDelay, false);
 	}
 	else

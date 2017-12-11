@@ -40,5 +40,6 @@ private:
 	UPROPERTY(EditAnywhere, Category = "SpawnDefault")
 		TSubclassOf<ADisk> DiskToSpawn;
 
-	const static float StackOffset;
+	UPROPERTY(EditAnywhere, Category = "SpawnDefault")
+		float StackOffset;
 };
