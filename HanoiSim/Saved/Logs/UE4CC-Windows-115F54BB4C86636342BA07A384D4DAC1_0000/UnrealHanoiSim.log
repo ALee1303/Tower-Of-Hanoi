@@ -1,0 +1,214 @@
+﻿Log file open, 12/10/17 17:11:45
+LogInit:Display: Running engine for game: UnrealHanoiSim
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1819671176) SRandInit(-1819671176).
+LogTaskGraph: Started task graph with 5 named threads and 10 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.100408
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3450819
+LogInit: Engine Version: 4.15.3-3450819+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): May 21 2017 11:02:34
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.12.10-23.11.47:306][  0]LogInit: Selected Device Profile: [Windows]
+[2017.12.10-23.11.47:306][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.12.10-23.11.47:314][  0]LogInit: Computer: DESKTOP-B7QLANU
+[2017.12.10-23.11.47:314][  0]LogInit: User: leech
+[2017.12.10-23.11.47:314][  0]LogInit: CPU Page size=65536, Cores=6
+[2017.12.10-23.11.47:314][  0]LogInit: High frequency timer resolution =3.318395 MHz
+[2017.12.10-23.11.47:314][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.12.10-23.11.47:314][  0]LogMemory: Platform Memory Stats for Windows
+[2017.12.10-23.11.47:314][  0]LogMemory: Process Physical Memory: 264.88 MB used, 264.88 MB peak
+[2017.12.10-23.11.47:314][  0]LogMemory: Process Virtual Memory: 270.23 MB used, 270.23 MB peak
+[2017.12.10-23.11.47:314][  0]LogMemory: Physical Memory: 7925.32 MB used,  8369.56 MB free, 16294.88 MB total
+[2017.12.10-23.11.47:314][  0]LogMemory: Virtual Memory: 679.05 MB used,  8369.56 MB free, 134217728.00 MB total
+[2017.12.10-23.11.47:430][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.12.10-23.11.48:090][  0]LogD3D11RHI: D3D11 adapters:
+[2017.12.10-23.11.48:147][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
+[2017.12.10-23.11.48:147][  0]LogD3D11RHI:       8086/0/8147 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.12.10-23.11.48:150][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.12.10-23.11.48:150][  0]LogD3D11RHI:       0/0/8147 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.12.10-23.11.48:150][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.12.10-23.11.48:159][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.12.10-23.11.48:159][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
+[2017.12.10-23.11.48:159][  0]LogWindows: EnumDisplayDevices:
+[2017.12.10-23.11.48:160][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
+[2017.12.10-23.11.48:160][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2017.12.10-23.11.48:160][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2017.12.10-23.11.48:161][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2017.12.10-23.11.48:161][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.12.10-23.11.48:161][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
+[2017.12.10-23.11.48:161][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.12.10-23.11.48:161][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.12.10-23.11.48:161][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.12.10-23.11.48:190][  0]LogD3D11RHI: Async texture creation enabled
+[2017.12.10-23.11.48:246][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.12.10-23.11.48:290][  0]LogShaderCompilers: Guid format shader working directory is 17 characters bigger than the processId version (D:/School/C++2/UnrealHanoiSim/Intermediate/Shaders/WorkingDirectory/3376/).
+[2017.12.10-23.11.48:290][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/leech/AppData/Local/Temp/UnrealShaderWorkingDir/69F68A0645EC9C985DD2978929605687/'.
+[2017.12.10-23.11.48:290][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.12.10-23.11.49:595][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.12.10-23.11.49:668][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.12.10-23.11.49:750][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.12.10-23.11.49:821][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.12.10-23.11.49:891][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.12.10-23.11.49:959][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.12.10-23.11.50:028][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.12.10-23.11.50:096][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.12.10-23.11.50:157][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.12.10-23.11.50:224][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.12.10-23.11.50:291][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.12.10-23.11.50:358][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.12.10-23.11.50:425][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.12.10-23.11.50:492][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.12.10-23.11.50:563][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.12.10-23.11.50:701][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.12.10-23.11.50:701][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.12.10-23.11.50:755][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.12.10-23.11.50:873][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.12.10-23.11.50:915][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.12.10-23.11.50:981][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.12.10-23.11.51:047][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.12.10-23.11.51:113][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.12.10-23.11.51:180][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.12.10-23.11.51:180][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.12.10-23.11.51:800][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.12.10-23.11.51:848][  0]LogDerivedDataCache: Loaded boot cache 0.05s 50MB C:/Users/leech/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.12.10-23.11.51:848][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/leech/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.12.10-23.11.51:849][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/School/C++2/UnrealHanoiSim/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.12.10-23.11.51:849][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.12.10-23.11.51:849][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/School/C++2/UnrealHanoiSim/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.12.10-23.11.51:849][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.12.10-23.11.51:864][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.12.10-23.11.51:876][  0]LogDerivedDataCache: Using Local data cache path C:/Users/leech/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.12.10-23.11.51:884][  0]LogSlate: Using Freetype 2.6.0
+[2017.12.10-23.11.51:885][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.12.10-23.11.51:885][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.12.10-23.11.52:154][  0]LogInit: Selected Device Profile: [Windows]
+[2017.12.10-23.11.52:159][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.12.10-23.11.52:426][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.12.10-23.11.52:487][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.12.10-23.11.52:561][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.12.10-23.11.52:561][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.12.10-23.11.52:561][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.12.10-23.11.53:250][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: unrealhanoisim, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 2797521926
+[2017.12.10-23.11.53:306][  0]LogAssetRegistry: FAssetRegistry took 0.0214 seconds to start up
+[2017.12.10-23.11.53:364][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.024942 seconds
+[2017.12.10-23.11.53:368][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2017.12.10-23.11.53:368][  0]LogUObjectAllocator: 7077032 out of 0 bytes used by permanent object pool.
+[2017.12.10-23.11.53:368][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.12.10-23.11.53:462][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.12.10-23.11.55:665][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.12.10-23.11.55:715][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.12.10-23.11.56:391][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.12.10-23.11.56:909][  0]SourceControl: Info Source control is disabled
+[2017.12.10-23.11.56:956][  0]SourceControl: Info Source control is disabled
+[2017.12.10-23.11.57:028][  0]SourceControl: Info Source control is disabled
+[2017.12.10-23.11.57:092][  0]SourceControl: Info Source control is disabled
+[2017.12.10-23.11.58:916][  0]LogEngine: Initializing Engine...
+[2017.12.10-23.11.58:916][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.12.10-23.11.59:015][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.12.10-23.11.59:015][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.12.10-23.11.59:190][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.12.10-23.11.59:236][  0]LogInit: XAudio2 using 'HP Spectre 32-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.10-23.11.59:264][  0]LogInit: FAudioDevice initialized.
+[2017.12.10-23.11.59:297][  0]LogDerivedDataCache: Saved boot cache 0.03s 50MB C:/Users/leech/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.12.10-23.11.59:303][  0]LogInit: Texture streaming: Enabled
+[2017.12.10-23.11.59:445][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.12.10-23.11.59:445][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={1387FA70-44A1-CE07-B31C-548888DB0EF8}
+[2017.12.10-23.11.59:574][  0]LogInit: Transaction tracking system initialized
+[2017.12.10-23.12.00:109][  0]BlueprintLog: New page: Editor Load
+[2017.12.10-23.12.01:375][  0]LocalizationService: Info Localization service is disabled
+[2017.12.10-23.12.02:313][  0]LogConsoleResponse:Display: 
+[2017.12.10-23.12.02:447][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.12.10-23.12.02:447][  0]LogCook:Display: Mobile HDR setting 1
+[2017.12.10-23.12.03:454][  0]LogFileCache: Scanning file cache for directory 'D:/School/C++2/UnrealHanoiSim/Content/' took 0.01s
+[2017.12.10-23.12.03:869][  0]SourceControl: Info Source control is disabled
+[2017.12.10-23.12.03:869][  0]Cmd: MAP LOAD FILE="D:/School/C++2/UnrealHanoiSim/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.12.10-23.12.03:869][  0]LightingResults: New page: Lighting Build
+[2017.12.10-23.12.03:928][  0]MapCheck: New page: Map Check
+[2017.12.10-23.12.03:928][  0]LightingResults: New page: Lighting Build
+[2017.12.10-23.12.04:215][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.12.10-23.12.04:235][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.12.10-23.12.04:235][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.12.10-23.12.04:299][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 63.798ms to complete.
+[2017.12.10-23.12.04:299][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.430
+[2017.12.10-23.12.04:471][  0]LogCollectionManager: Loaded 0 collections in 0.001705 seconds
+[2017.12.10-23.12.04:573][  0]LogFileCache: Scanning file cache for directory 'D:/School/C++2/UnrealHanoiSim/Saved/Collections/' took 0.01s
+[2017.12.10-23.12.04:573][  0]LogFileCache: Scanning file cache for directory 'D:/School/C++2/UnrealHanoiSim/Content/Developers/leech/Collections/' took 0.01s
+[2017.12.10-23.12.04:573][  0]LogFileCache: Scanning file cache for directory 'D:/School/C++2/UnrealHanoiSim/Content/Collections/' took 0.01s
+[2017.12.10-23.12.04:573][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.12.10-23.12.04:583][  0]LogContentBrowser: Native class hierarchy populated in 0.0096 seconds. Added 2249 classes and 455 folders.
+[2017.12.10-23.12.04:688][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0033 seconds. Added 0 classes and 0 folders.
+[2017.12.10-23.12.04:741][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0023 seconds. Added 0 classes and 0 folders.
+[2017.12.10-23.12.04:808][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0023 seconds. Added 1 classes and 2 folders.
+[2017.12.10-23.12.04:876][  0]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0022 seconds. Added 1 classes and 3 folders.
+[2017.12.10-23.12.04:976][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.12.10-23.12.04:982][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.12.10-23.12.05:069][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0022 seconds. Added 1 classes and 2 folders.
+[2017.12.10-23.12.05:069][  0]LogLoad: (Engine Initialization) Total time: 20.72 seconds
+[2017.12.10-23.12.05:069][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.10 seconds
+[2017.12.10-23.12.05:069][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.12.10-23.12.05:069][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.12.10-23.12.05:408][  0]LogOcInput: OculusInput pre-init called
+[2017.12.10-23.12.05:429][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.12.10-23.12.05:431][  0]LogSlate: Took 0.000452 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.12.10-23.12.05:436][  0]LogSlate: Took 0.000447 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.12.10-23.12.05:443][  0]LogSlate: Took 0.000268 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.12.10-23.12.05:578][  0]LogRenderer: Reallocating scene render targets to support 1372x808 NumSamples 1 (Frame:2).
+[2017.12.10-23.12.05:768][  1]LogAssetRegistry: Asset discovery search completed in 12.4840 seconds
+[2017.12.10-23.12.05:768][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000005 seconds (found 0 objects)
+[2017.12.10-23.12.05:768][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000017 seconds (updated 0 objects)
+[2017.12.10-23.14.42:277][ 87]LogTemp: Repeting last play command: Selected Viewport
+[2017.12.10-23.14.42:285][ 87]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.12.10-23.14.42:285][ 87]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.10-23.14.42:286][ 87]PIE: New page: PIE session: Minimal_Default (Dec 10, 2017, 11:14:42 AM)
+[2017.12.10-23.14.42:286][ 87]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2017.12.10-23.14.42:291][ 87]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005069s)
+[2017.12.10-23.14.42:291][ 87]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.12.10-23.14.42:291][ 87]LogPlayLevel: PIE: World Init took: (0.000685s)
+[2017.12.10-23.14.42:292][ 87]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.005966s)
+[2017.12.10-23.14.42:357][ 87]LogInit: XAudio2 using 'HP Spectre 32-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.10-23.14.42:389][ 87]LogInit: FAudioDevice initialized.
+[2017.12.10-23.14.42:444][ 87]LogLoad: Game class is 'UnrealHanoiSimGameModeBase_BP_C'
+[2017.12.10-23.14.42:448][ 87]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2017.12.10-17.14.42
+[2017.12.10-23.14.42:448][ 87]LogWorld: Bringing up level for play took: 0.002043
+[2017.12.10-23.14.42:516][ 87]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0023 seconds. Added 11 classes and 0 folders.
+[2017.12.10-23.15.29:148][ 87]LogWindows: Windows GetLastError: The operation completed successfully. (0)
