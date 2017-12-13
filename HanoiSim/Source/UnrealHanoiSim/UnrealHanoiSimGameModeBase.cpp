@@ -8,6 +8,7 @@
 AUnrealHanoiSimGameModeBase::AUnrealHanoiSimGameModeBase()
 {
 	MoveDelay = 2.0f;
+	HanoiCount = 5;
 }
 
 void AUnrealHanoiSimGameModeBase::BeginPlay()
@@ -21,10 +22,8 @@ void AUnrealHanoiSimGameModeBase::BeginPlay()
 	UGameplayStatics::GetAllActorsOfClass(GetWorld(), ATowerManager::StaticClass(), FoundActors);
 	TowerManager = Cast<ATowerManager>(FoundActors[0]);
 
-	HanoiCount = 8;
-
-	Cast<ATowerManager>(TowerManager)->InitializeTowers(8);
-	EnqueueMoveCall(8);
+	Cast<ATowerManager>(TowerManager)->InitializeTowers(HanoiCount);
+	EnqueueMoveCall(HanoiCount);
 	GetWorldTimerManager().SetTimer(MoveTimer, this, &AUnrealHanoiSimGameModeBase::DequeueMoveCall, MoveDelay, false);
 }
 
