@@ -6,7 +6,7 @@ Repositories for UE4 projects
 
 This Unreal project is a visual data structure that simulates [Table of Hanoi](https://en.wikipedia.org/wiki/Tower_of_Hanoi) puzzle solution. It uses stack, queue, and recursion to create data structure from Unreal Actors that allows different disk types and tower height.
 
-[img](https://imgur.com/JXF0zUs)
+[gifv](https://i.imgur.com/JXF0zUs.gifv)
 
 ## Table of Content
 
