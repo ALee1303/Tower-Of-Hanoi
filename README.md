@@ -6,7 +6,7 @@ Repositories for UE4 projects
 
 This Unreal project is a visual data structure that simulates [Table of Hanoi](https://en.wikipedia.org/wiki/Tower_of_Hanoi) puzzle solution. It uses stack, queue, and recursion to create data structure from Unreal Actors that allows different disk types and tower height.
 
-![gif](https://imgur.com/0NYk5tv)
+![gif](https://i.imgur.com/0NYk5tv.gifv)
 
 ## Table of Content
 
@@ -47,7 +47,7 @@ These explanation will get you through trying different settings provided in the
 * Player is set to start directly in front of tower staring at the tower. The disks are not generated until level is actually played.
 * Once played, disk will start moving from right-most-tower onto the left-most-tower, obeying the [rules](https://en.wikipedia.org/wiki/Tower_of_Hanoi) of the puzzle.
 
-![gif](https://imgur.com/eAORKos)
+![gif](https://i.imgur.com/eAORKos.png)
 
 ### Adjusting Game Mode
 
@@ -56,7 +56,7 @@ These explanation will get you through trying different settings provided in the
 * _Move Delay_ decides the time between each disks moved.
 * _Hanoi Count_ decides the height of the tower.
 
-![gif](https://imgur.com/RVCL3tZ)
+![gif](https://i.imgur.com/RVCL3tZ.png)
 
 ### Tower Data Structures
 
@@ -65,12 +65,12 @@ Tower is simulated using three separate data structure, created by Unreal Engine
 * [Tower Manager](https://github.com/ALee1303/Tower-Of-Hanoi/blob/master/Source/UnrealHanoiSim/TowerManager.cpp)
   * _Tower to Spawn_: Type of tower composing the puzzle. Set to default __Tower_BP__.
   * _Towers Start Position_: Position where the first tower will spawn. Set to the Scene Component.
-  ![gif](https://imgur.com/rM8YDz7)
+  ![gif](https://i.imgur.com/rM8YDz7.png)
   * _Tower Offset_: Distance between each tower.
 * [Tower](https://github.com/ALee1303/Tower-Of-Hanoi/blob/master/Source/UnrealHanoiSim/Tower.cpp)
   * _Disk to Spawn_: Type of disk tower is composed of. Set to default __Disk_BP__.
   * _Stack Offset_: Distance between two disks.
-  ![gif](https://imgur.com/YXbBOFZ)
+  ![gif](https://i.imgur.com/YXbBOFZ.png)
 * [Disk](https://github.com/ALee1303/Tower-Of-Hanoi/blob/master/Source/UnrealHanoiSim/Disk.cpp)
   * _Static Mesh_: Adjust the shape of each disk. Can be any of the provided _Standard Content_ or custom one.
   * _Materials_: Decides the rendered material of the disk. Can be any of the provided _Standard Content_ or custom one.
